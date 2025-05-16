@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+}
+@keyframes scaleme
+{
+0% {transform: translate(0,0) rotate(0deg);}
+25%{transform: translate(5px,5px) rotate(5deg);}
+50%{transform: translate(0,0) rotate(0deg);}
+75%{transform: translate(-5px,5px) rotate(-5deg);}
+100%{transform: translate(0,0) rotate(0deg);}
+}
+
+div{
+	width: 250px;
+	height: 30px;
+	background-color: blueviolet;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bolder;
+	animation: scaleme .4s infinite;
+	color: white;
+
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+</style>
+	<title></title>
+</head>
+<body>
+<div><a href="Login Page.html">CSC Computer Education</a></div>
+</body>
+</html>
